@@ -3,7 +3,7 @@ entries:
   druid:
   - apiVersion: v2
     appVersion: 24.0.0
-    created: "2023-07-20T12:18:38.845688+09:00"
+    created: "2023-07-24T17:59:54.131784+09:00"
     dependencies:
     - condition: zookeeper.enabled
       name: zookeeper
@@ -18,7 +18,7 @@ entries:
       repository: https://charts.helm.sh/stable
       version: 8.6.4
     description: Apache Druid is a high performance real-time analytics database.
-    digest: 126f3f7250dc8c60df768c074998da91d5cde0df786e55e6cdec272f06f01700
+    digest: e450c758172a6715e89f85a7fc9d10ae6b42b506d308ed46261fae186ccf3d40
     home: https://druid.apache.org/
     icon: https://druid.apache.org/img/favicon.png
     keywords:
@@ -29,6 +29,6 @@ entries:
     sources:
     - https://github.com/apache/druid
     urls:
-    - https://xotlr92.github.io/druid/druid-0.3.5.tgz
+    - druid-0.3.5.tgz
     version: 0.3.5
-generated: "2023-07-20T12:18:38.837743+09:00"
+generated: "2023-07-24T17:59:54.123903+09:00"
