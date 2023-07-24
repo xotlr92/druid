@@ -3,22 +3,18 @@ entries:
   druid:
   - apiVersion: v2
     appVersion: 24.0.0
-    created: "2023-07-24T17:59:54.131784+09:00"
+    created: "2023-07-24T18:13:55.274324+09:00"
     dependencies:
     - condition: zookeeper.enabled
       name: zookeeper
       repository: https://charts.bitnami.com/bitnami
       version: 11.4.8
-    - condition: mysql.enabled
-      name: mysql
-      repository: https://charts.helm.sh/stable
-      version: 1.6.4
     - condition: postgresql.enabled
       name: postgresql
       repository: https://charts.helm.sh/stable
       version: 8.6.4
     description: Apache Druid is a high performance real-time analytics database.
-    digest: e450c758172a6715e89f85a7fc9d10ae6b42b506d308ed46261fae186ccf3d40
+    digest: e1f3f4707195d882c1978ae1b56e12a2cff0bf128287f34089c3b39557a874be
     home: https://druid.apache.org/
     icon: https://druid.apache.org/img/favicon.png
     keywords:
@@ -31,4 +27,4 @@ entries:
     urls:
     - druid-0.3.5.tgz
     version: 0.3.5
-generated: "2023-07-24T17:59:54.123903+09:00"
+generated: "2023-07-24T18:13:55.266568+09:00"
