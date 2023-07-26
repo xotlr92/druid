@@ -1,0 +1,9 @@
+dependencies:
+- name: zookeeper
+  repository: https://charts.bitnami.com/bitnami
+  version: 11.4.8
+- name: mysql
+  repository: https://charts.bitnami.com/bitnami
+  version: 9.10.8
+digest: sha256:ee89d220334224210ee038ab3c2d837bfd9fcb6942b9bbcfc79ff7554ac9b8d4
+generated: "2023-07-25T17:50:16.866447+09:00"
