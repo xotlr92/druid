@@ -81,11 +81,11 @@ spec:
               containerPort: {{ .Values.prometheus.port }}
               protocol: TCP
             {{- end }}
-          livenessProbe:
-            initialDelaySeconds: 60
-            httpGet:
-              path: /status/health
-              port: {{ .Values.broker.port }}
+#          livenessProbe:
+#            initialDelaySeconds: 60
+#            httpGet:
+#              path: /status/health
+#              port: {{ .Values.broker.port }}
           readinessProbe:
             initialDelaySeconds: 60
             httpGet:
